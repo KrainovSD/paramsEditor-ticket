@@ -1,0 +1,21 @@
+.params-editor {
+  width: 1000px;
+  margin: 0 auto;
+
+  &__button-wrapper {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    & > ._item {
+      background: #797979;
+      cursor: pointer;
+      color: #ffffff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+  }
+  &__model-view-wrapper {
+    margin-top: 20px;
+  }
+}

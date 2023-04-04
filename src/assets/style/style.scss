@@ -1,0 +1,10 @@
+@import "./_custom";
+@import "./_const";
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #eae5e4;
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif;
+}
